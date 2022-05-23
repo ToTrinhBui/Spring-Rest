@@ -1,4 +1,4 @@
-# Spring-Rest-1
+# Spring-Rest
 Just my exercises in Web Programming course
 
 #Note:
