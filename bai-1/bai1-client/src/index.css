@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin: 3rem;
+}
+
+.credit-card,
+.card-form,
+.payment, .done {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-input {
+  padding: 2rem;
+  margin: auto;
+  width: 350px;
+  box-shadow: 0px 0px 12px rgb(117, 117, 117);
+  border-radius: 5px;
+}
+
+.part {
+  margin: 10px;
+}
+
+.part input {
+  float: right;
+  padding: 2px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  margin: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(129, 32, 105);
+  color: #fff;
+  font-weight: 600;
+}
+
+.error-message{
+  color: red;
+}
